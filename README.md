@@ -1,7 +1,7 @@
 PrintFig.jl
 ========
 
-Generate nice looking figures with [matplotlib2tikz](https://github.com/nschloe/matplotlib2tikz) in [julia](http://julialang.org) and export to LaTeX.
+Generate nice looking figures with [matplotlib2tikz](https://github.com/nschloe/matplotlib2tikz) in [julia](http://julialang.org) and export to LaTeX by using [pgf and tikz](http://www.texample.net/tikz/) libraries.
 
 ## Requirements and installation
 The PrintFig.jl module requires [PyCall](https://github.com/stevengj/PyCall.jl) and [PyPlot](https://github.com/stevengj/PyPlot.jl). Get these with `Pkg.add("PyPlot.jl")` in julia. If used in conjunction with [IJulia](https://github.com/JuliaLang/IJulia.jl), there might be issues with the qt backend. Some [reports](https://github.com/JuliaLang/julia/issues/4878) suggest that installing pyqt helps. If the anaconda package is used, installing pyqt for anaconda worked for me:
