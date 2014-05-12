@@ -53,3 +53,5 @@ And the document is compiled as a normal `.tex` file.
 
 The figure can also be saved to a user defined directory by using the `filename` keyword: `printfig(fig,filename="path/to/dir/filename")`
 
+## License
+The utilized python library [matplotlib2tikz](https://github.com/nschloe/matplotlib2tikz) Copyright Nico Schlömer is licensed under GNU Lesser General Public License (LGPL), Version 3.
