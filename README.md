@@ -50,3 +50,6 @@ This approach creates a  file `FIG1.tex` with documentclass `standalone` with th
 ```
 
 And the document is compiled as a normal `.tex` file.
+
+The figure can also be saved to a user defined directory by using the `filename` keyword: `printfig(fig,filename="path/to/dir/filename")`
+
