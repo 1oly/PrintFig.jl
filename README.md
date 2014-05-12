@@ -34,7 +34,7 @@ ylabel(L"$\sin(x)$");
 printfig(fig)				# Save figure object to current directory
 ```
 
-This approach creates a  file `FIG1.tex` with documentclass `standalone` with the plot inside a tikzpicture:
+This approach creates a  file `FIG1.tex` with documentclass `standalone` with the plot inside a tikzpicture environment:
 
 ```
 \documentclass[tikz]{standalone}
