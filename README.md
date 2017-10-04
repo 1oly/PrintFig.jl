@@ -1,6 +1,10 @@
 PrintFig.jl
 ========
 
+**Unmaintained**
+
+--------------------
+
 Generate nice looking figures with [matplotlib2tikz](https://github.com/nschloe/matplotlib2tikz) in [julia](http://julialang.org) and export to LaTeX by using [pgf and tikz](http://www.texample.net/tikz/) libraries.
 
 ## Requirements and installation
